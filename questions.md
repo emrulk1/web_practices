@@ -1,8 +1,11 @@
-Kindly do only what is asked in the tasks. Do not do anything extra. Consider that what is not said is not required.
+### Instruction
 
-You can use images hosted online. No need to download images offline to use.
+- Kindly do only what is asked in the tasks. Do not do anything extra. Consider that what is not said is not required.
+- You can use images hosted online. No need to download images offline to use.
+- If dimensions of a table or a list is not defined, assume the least possible value. (For example, 1x1 size for a table, and 1 item for a list.)
+- Use only HTML and CSS to complete the tasks until explicitly asked otherwise.
 
-Please use Git, and commit after every task is completed at least. If you think more commits are necessary or better in any task, please do so.
+_**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so._
 
 ### Task 1
 
