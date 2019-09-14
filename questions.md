@@ -1,3 +1,7 @@
+Kindly do only what is asked in the tasks. Do not do anything extra. Consider that what is not said is not required.
+
+You can use images hosted online. No need to download images offline to use.
+
 ### Task 1
 
 Create a simple web page, without any visible content.
