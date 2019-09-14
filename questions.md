@@ -28,6 +28,6 @@ Create:
 
 - Add an HTML `id` attribute of value `nestedList` to the nested list created in the last task.
 - In the 3rd item of `nestedList`, add a hyperlink, which –
-  - should show the content "HTML tag list"
-  - should show the full form of the abbreviation "HTML" when hovered
+  - should show the content "HTML tag list".
+  - should show the full form of the abbreviation "HTML" when the word "HTML" is hovered.
   - should redirect to this link: `https://html.com/tags`.
