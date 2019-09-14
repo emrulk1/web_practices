@@ -2,6 +2,8 @@ Kindly do only what is asked in the tasks. Do not do anything extra. Consider th
 
 You can use images hosted online. No need to download images offline to use.
 
+Please use Git, and commit after every task is completed at least. If you think more commits are necessary or better in any task, please do so.
+
 ### Task 1
 
 Create a simple web page, without any visible content.
