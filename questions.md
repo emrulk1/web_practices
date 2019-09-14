@@ -64,3 +64,8 @@ Create a box (use any tag you like, but with a visible border – of whatever st
    (Meaning, if you select "option1" first and then select "option2" again, "option1" will be deselected automatically.)
 - Create a question with 2 options that _can_ be selected at the same time.
 - Create an input field that only takes email addresses as valid input.
+
+### Task 8
+
+- Wrap all the elements created in the last task in an HTML `<form>` tag, and add a button which will reset all the input fields (clear all content) when clicked.
+- Add an HTML `id` attribute of value `form` to the form.
