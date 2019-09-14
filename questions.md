@@ -33,3 +33,19 @@ Create:
   - should show the content "HTML tag list".
   - should show the full form of the abbreviation "HTML" when the word "HTML" is hovered.
   - should redirect to this link: `https://html.com/tags`.
+
+### Task 6
+
+Show the HTML code necessary to create a text-justified paragraph with an image inside, in such a way that all indentations are preserved. Like the `dt` and `dd` tags are indented here:
+```HTML
+<dl>
+    <dt>item</dt>
+    <dd>description</dd>
+</dl>
+```
+
+Kindly note that _you_ are asked to write code for _a paragraph with an image inside_.
+
+Just put the word "paragraph" as the content of the paragraph. It is not mandatory to actually put the link of an image to the tag – you can just leave an empty tag for the image.
+
+Use whichever HTML tag is necessary to show the indentation.
