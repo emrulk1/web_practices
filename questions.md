@@ -19,3 +19,11 @@ Create:
 - Inside the 2nd item of the already-created list, create a list with 3 items.
 - Create a table inside the 2nd item of the nested list.
 - In the newly-created table, add a random image of fixed size: `200px` height and `300px` width.
+
+### Task 5
+
+- Add an HTML `id` attribute of value `nestedList` to the nested list created in the last task.
+- In the 3rd item of `nestedList`, add a hyperlink, which –
+  - should show the content "HTML tag list"
+  - should show the full form of the abbreviation "HTML" when hovered
+  - should redirect to this link: `https://html.com/tags`.
