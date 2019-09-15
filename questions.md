@@ -1,11 +1,20 @@
-### Instruction
+### Instructions
 
 - Kindly do only what is asked in the tasks. Do not do anything extra. Consider that what is not said is not required.
 - Until instructed, do all tasks in a single HTML file. This file will be called as the index file in future, but it is not mandatory to name it `index.html`.
+- Kindly do not create any file or directory unless specified in the question. If you do, this may confuse you when a future question tell you to create directories and refer to files from within them.
 - You can use images hosted online. No need to download images offline to use.
 - If dimensions of a table or a list is not defined, assume the least possible value. (For example, 1x1 size for a table, and 1 item for a list.)
 - Use only HTML and CSS to complete the tasks until explicitly asked otherwise.
 - In case of content for HTML tags, use generic words, with numbers if necessary. (For example, just "paragraph" for a paragraph; "item1" and "item2" for a list with 2 items; "r1c1", "r1c2", "r2c1", etc. in case of table cells.)
+- Unless specified, follow natural order in adding your code to the document. Add your code of each task after the code of the previous task. (Which means that the image from task 3 will appear after the table from task 2; and following the image will be the code from task 6, since task 4 and task 5 have specific instructions.)
+- Do not assume an "input field" means the HTML `<input>` tag. The result should look like an input field to the eye. Whatever HTML tag you use to make it so is not the concern, as long it does what is asked for in the question.
+
+All "estimated time needed" values have been calculated with some margin for searching what you will be looking for to complete the tasks, and for reading up on some related things you found. So, in almost all the cases – unless you are very unlucky, or inefficient in the way you search – you will need less time than what is given. And, if you at least know the names of the tags and properties you need to use, you will need about 1/5th to 1/6th of the time.
+
+By the way, keep in mind that the time does not necessarily indicate difficulty or the amount of code you need to write. Since some time to read up on related topic is included, it can vary greatly for solutions that apply different methods for the same problem.
+
+You do not need to look at the hints just because they are there. Ignore them if you want some challenge. But feel free to make use of them if in a hurry.
 
 _**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so._
 
