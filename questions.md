@@ -22,6 +22,8 @@ _**Note:** Please use Git, and commit at least after every task is completed. If
 
 Create a simple web page, without any visible content.
 
+_Estimated time needed for completion: 10m_
+
 ### Task 2
 
 Create:
@@ -29,16 +31,22 @@ Create:
 - an unordered list with 2 items (put "item1", "item2" as content), 
 - a table with 2 rows and 2 columns (put "c1r1", "c2r1", etc. as content).
 
+_Est. time: 10m_
+
 ### Task 3
 
 - Add a random image which will be 100% width of the screen.
 - Center the image horizontally.
+
+_Est. time: 15m_
 
 ### Task 4
 
 - Inside the 2nd item of the already-created list, create a list with 3 items.
 - Create a table inside the 2nd item of the nested list.
 - In the newly-created table, add a random image of fixed size: `200px` height and `300px` width.
+
+_Est. time: 15m_
 
 ### Task 5
 
@@ -47,6 +55,8 @@ Create:
   - should show the content "HTML tag list".
   - should show the full form of the abbreviation "HTML" when the word "HTML" is hovered.
   - should redirect to this link: `https://html.com/tags`.
+
+_Est. time: 20m_
 
 ### Task 6
 
@@ -64,6 +74,8 @@ Just put the word "paragraph" as the content of the paragraph. It is not mandato
 
 Use whichever HTML tag is necessary to show the indentation.
 
+_Est. time: 25m_
+
 ### Task 7
 
 Create a box (use any tag you like, but with a visible border – of whatever style you like) and in it:
@@ -74,10 +86,14 @@ Create a box (use any tag you like, but with a visible border – of whatever st
 - Create a question with 2 options that _can_ be selected at the same time.
 - Create an input field that only takes email addresses as valid input.
 
+_Est. time: 35m_
+
 ### Task 8
 
 - Wrap all the elements created in the last task in an HTML `<form>` tag, and add a button which will reset all the input fields (clear all content) when clicked.
 - Add an HTML `id` attribute of value `form` to the form.
+
+_Est. time: 15m_
 
 ### Task 9
 
@@ -87,12 +103,16 @@ Inside the form created in the last task –
 - Add a select option for gender. Provide two boxes/circles/buttons for the user two select, but they should be preceded by the texts "male" and "female". And when the user clicks on a text – not on the box/circle/button itself – the option should get selected. The user should not be able to select both options simultaneously.
    (Clarification: Make it so that an input option gets selected even if the user clicks on its text only. And do this _without using JabaScript_.)
 
+_Est. time: 25m_
+
 ### Task 10
 
 - In the list with the `id` value `nestedList`, change the default list style (filled circles, most likely) to numbers, without changing the HTML tags.
 - Add an `id` attribute of value `outerList` to the other/outer list. Change its default list style to "a", "b", "c", ... etc, without changing the HTML tags.
 
 > (Hint: read up on CSS pseudo-classes and pseudo-elements.)
+
+_Est. time: 25m_
 
 ### Task 11
 
@@ -101,10 +121,14 @@ Inside the form created in the last task –
 - At the end of your HTML file, write "There are 2 lists" in a paragraph, in a font smaller than the default size. Make the font size smaller without using any CSS. Add an `id` of value `footnote` to it.
 - Put a line _over_ this footnote without adding a new HTML element or using any `border`-related CSS property.
 
+_Est. time: 20m_
+
 ### Task 12
 
 - Create a progress bar to show how many tasks so far you have completed (among 1-11) without using any CSS.
 - Create another progress bar to show the same. This time, you can use CSS, but you can not add any more HTML element. Do it using only one tag.
+
+_Est. time: 25m_
 
 ### Task 13
 
@@ -118,6 +142,8 @@ This progress bar is made without CSS.
 
 But the next one is not.
 ```
+
+_Est. time: 15m_
 
 ### Task 14
 
@@ -136,15 +162,21 @@ Create a table that looks like this:
 ---------------------------------
 ```
 
+_Est. time: 20m_
+
 ### Task 15
 
 Try to show `https://www.wikipedia.org` in a small box/opening/window on your page. No CSS is necessary.
 
 > (Hint: there is an HTML tag for showing other websites.)
 
+_Est. time: 15m_
+
 ### Task 16
 
 Create a box (with visible border to identify easily) with the content "a magic box", but make it so that you can directly type in it, without using any JS.
+
+_Est. time: 10m_
 
 ### Task 17
 
@@ -155,12 +187,18 @@ Create a box (with visible border) and in it:
   - Make the 3rd button hidden without using any CSS or JS. (It will be in the code but will not appear on the webpage in the browser.)
 - Create an input field where the user can not type more than 16 characters one after another. The field should show "16 characters only" as a placeholder by default.
 
+_Est. time: 15m_
+
 ### Task 18
 
 Create another input field inside the box created in the previous task. The input field should have the words "already filled" _pre-written_ in it.
 
 The specialty of a placeholder is it can not be selected and it goes away once you click on the input field to type. The purpose of this task is not to create that. Instead, you need to make the field appear as though you have already typed the words "already filled" in it.
 
+_Est. time: 10m_
+
 ### Task 19
 
 Create an input field where, while typing, you will get suggestions from a set of predefined values/options. Do this with HTML only.
+
+_Est. time: 20m_
