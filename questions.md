@@ -9,6 +9,10 @@
 - In case of content for HTML tags, use generic words, with numbers if necessary. (For example, just "paragraph" for a paragraph; "item1" and "item2" for a list with 2 items; "r1c1", "r1c2", "r2c1", etc. in case of table cells.)
 - Unless specified, follow natural order in adding your code to the document. Add your code of each task after the code of the previous task. (Which means that the image from task 3 will appear after the table from task 2; and following the image will be the code from task 6, since task 4 and task 5 have specific instructions.)
 - Do not assume an "input field" means the HTML `<input>` tag. The result should look like an input field to the eye. Whatever HTML tag you use to make it so is not the concern, as long it does what is asked in the question.
+- From task 22 onward, write all CSS rules you need in the external CSS file unless explicitly told to do otherwise. Name that file whatever you like, but this file will be called the main CSS file to refer in the future.
+- From task 22 onward, in the CSS-focused questions, when you are asked to use CSS to do something, do not remove or modify either any of your existing CSS or the content of the CSS file given in the question. Just add more valid CSS rules to override them in the browser rendering.
+- From task 22 onward, in order to apply your own CSS, add whatever `class` attributes you think necessary to whatever HTML tags. But do not add any `id` attribute unless explicitly asked to do so. And, try to keep the class names generic, so they do not coincide with class names provided in any question (if any).
+- From task 22 onward, when you are asked to apply CSS, create additional HTML elements if necessary (e.g., a container `<div>` for an `<img>`). But do try to keep the amount of such additional tag creation to a minimum.
 
 All "estimated time needed" values have been calculated with some margin for searching what you will be looking for to complete the tasks, and for reading up on some related things you found. So, in almost all the cases – unless you are very unlucky, or inefficient in the way you search – you will need less time than what is given. And, if you at least know the names of the tags and properties you need to use, you will need about 1/5th to 1/6th of the time.
 
@@ -16,7 +20,7 @@ By the way, keep in mind that the time does not necessarily indicate difficulty 
 
 You do not need to look at the hints just because they are there. Ignore them if you want some challenge. But feel free to make use of them if in a hurry.
 
-_**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so._
+_**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so. (Especially when the same task has a subtask that reverts the affect of the previous subtask (e.g., making it invisible, and then making it visible again) – so, putting both the code for subtasks in the same commit will effectively just show the result of the later subtask.)_
 
 ### Task 1
 
@@ -72,7 +76,7 @@ Kindly note that _you_ are asked to write code for _a paragraph with an image in
 
 Just put the word "paragraph" as the content of the paragraph. It is not mandatory to actually put the link of an image to the tag – you can just leave an empty tag for the image.
 
-Use whichever HTML tag is necessary to show the indentation.
+Use whichever HTML tag is necessary to show the indentation. Do not use CSS this.
 
 _Est. time: 25m_
 
@@ -81,7 +85,7 @@ _Est. time: 25m_
 Create a box (use any tag you like, but with a visible border – of whatever style you like) and in it:
 - Create an input field that will only take integer numbers between and including 51–87.
 - Create an input field in which you can safely type a password without anyone noticing over your shoulder.
-   > (Hint: there is an attribute for this.)
+   > (Hint: There is an attribute for this.)
 - Create a question (content: "question1") with 2 options ("option1", "option2") that can not be selected at the same time. (Meaning, if you select "option1" first and then select "option2" again, "option1" will be deselected automatically.)
 - Create a question with 2 options that _can_ be selected at the same time.
 - Create an input field that only takes email addresses as valid input.
@@ -110,7 +114,7 @@ _Est. time: 25m_
 - In the list with the `id` value `nestedList`, change the default list style (filled circles, most likely) to numbers, without changing the HTML tags.
 - Add an `id` attribute of value `outerList` to the other/outer list. Change its default list style to "a", "b", "c", ... etc, without changing the HTML tags.
 
-> (Hint: read up on CSS pseudo-classes and pseudo-elements.)
+> (Hint: Read up on CSS pseudo-classes and pseudo-elements.)
 
 _Est. time: 25m_
 
@@ -168,7 +172,7 @@ _Est. time: 20m_
 
 Try to show `https://www.wikipedia.org` in a small box/opening/window on your page. No CSS is necessary.
 
-> (Hint: there is an HTML tag for showing other websites.)
+> (Hint: There is an HTML tag for showing other websites.)
 
 _Est. time: 15m_
 
