@@ -35,7 +35,7 @@ _Est. time: 10m_
 
 ### Task 3
 
-- Add a random image which will be 100% width of the screen.
+- Add a random image which will be 50% width of the screen.
 - Center the image horizontally.
 
 _Est. time: 15m_
@@ -53,7 +53,7 @@ _Est. time: 15m_
 - Add an HTML `id` attribute of value `nestedList` to the nested list created in the last task.
 - In the 3rd item of `nestedList`, add a hyperlink, which –
   - should show the content "HTML tag list".
-  - should show the full form of the abbreviation "HTML" when the word "HTML" is hovered.
+  - should show the full form of the abbreviation "HTML" when the word "HTML" is hovered. (This should be done without using any CSS.)
   - should redirect to this link: `https://html.com/tags`.
 
 _Est. time: 20m_
