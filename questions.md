@@ -9,6 +9,10 @@
 - In case of content for HTML tags, use generic words, with numbers if necessary. (For example, just "paragraph" for a paragraph; "item1" and "item2" for a list with 2 items; "r1c1", "r1c2", "r2c1", etc. in case of table cells.)
 - Unless specified, follow natural order in adding your code to the document. Add your code of each task after the code of the previous task. (Which means that the image from task 3 will appear after the table from task 2; and following the image will be the code from task 6, since task 4 and task 5 have specific instructions.)
 - Do not assume an "input field" means the HTML `<input>` tag. The result should look like an input field to the eye. Whatever HTML tag you use to make it so is not the concern, as long it does what is asked in the question.
+- From task 22 onward, write all CSS rules you need in the external CSS file unless explicitly told to do otherwise. Name that file whatever you like, but this file will be called the main CSS file to refer in the future.
+- From task 22 onward, in the CSS-focused questions, when you are asked to use CSS to do something, do not remove or modify either any of your existing CSS or the content of the CSS file given in the question. Just add more valid CSS rules to override them in the browser rendering.
+- From task 22 onward, in order to apply your own CSS, add whatever `class` attributes you think necessary to whatever HTML tags. But do not add any `id` attribute unless explicitly asked to do so. And, try to keep the class names generic, so they do not coincide with class names provided in any question (if any).
+- From task 22 onward, when you are asked to apply CSS, create additional HTML elements if necessary (e.g., a container `<div>` for an `<img>`). But do try to keep the amount of such additional tag creation to a minimum.
 
 All "estimated time needed" values have been calculated with some margin for searching what you will be looking for to complete the tasks, and for reading up on some related things you found. So, in almost all the cases – unless you are very unlucky, or inefficient in the way you search – you will need less time than what is given. And, if you at least know the names of the tags and properties you need to use, you will need about 1/5th to 1/6th of the time.
 
@@ -16,7 +20,7 @@ By the way, keep in mind that the time does not necessarily indicate difficulty 
 
 You do not need to look at the hints just because they are there. Ignore them if you want some challenge. But feel free to make use of them if in a hurry.
 
-_**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so._
+_**Note:** Please use Git, and commit at least after every task is completed. If you think more commits are necessary or better in any task, please do so. (Especially when the same task has a subtask that reverts the affect of the previous subtask (e.g., making it invisible, and then making it visible again) – so, putting both the code for subtasks in the same commit will effectively just show the result of the later subtask.)_
 
 ### Task 1
 
@@ -72,7 +76,7 @@ Kindly note that _you_ are asked to write code for _a paragraph with an image in
 
 Just put the word "paragraph" as the content of the paragraph. It is not mandatory to actually put the link of an image to the tag – you can just leave an empty tag for the image.
 
-Use whichever HTML tag is necessary to show the indentation.
+Use whichever HTML tag is necessary to show the indentation. Do not use CSS this.
 
 _Est. time: 25m_
 
@@ -81,7 +85,7 @@ _Est. time: 25m_
 Create a box (use any tag you like, but with a visible border – of whatever style you like) and in it:
 - Create an input field that will only take integer numbers between and including 51–87.
 - Create an input field in which you can safely type a password without anyone noticing over your shoulder.
-   > (Hint: there is an attribute for this.)
+   > (Hint: There is an attribute for this.)
 - Create a question (content: "question1") with 2 options ("option1", "option2") that can not be selected at the same time. (Meaning, if you select "option1" first and then select "option2" again, "option1" will be deselected automatically.)
 - Create a question with 2 options that _can_ be selected at the same time.
 - Create an input field that only takes email addresses as valid input.
@@ -110,7 +114,7 @@ _Est. time: 25m_
 - In the list with the `id` value `nestedList`, change the default list style (filled circles, most likely) to numbers, without changing the HTML tags.
 - Add an `id` attribute of value `outerList` to the other/outer list. Change its default list style to "a", "b", "c", ... etc, without changing the HTML tags.
 
-> (Hint: read up on CSS pseudo-classes and pseudo-elements.)
+> (Hint: Read up on CSS pseudo-classes and pseudo-elements.)
 
 _Est. time: 25m_
 
@@ -168,7 +172,7 @@ _Est. time: 20m_
 
 Try to show `https://www.wikipedia.org` in a small box/opening/window on your page. No CSS is necessary.
 
-> (Hint: there is an HTML tag for showing other websites.)
+> (Hint: There is an HTML tag for showing other websites.)
 
 _Est. time: 15m_
 
@@ -202,3 +206,132 @@ _Est. time: 10m_
 Create an input field where, while typing, you will get suggestions from a set of predefined values/options. Do this with HTML only.
 
 _Est. time: 20m_
+
+### Task 20
+
+Create this using only 2 HTML tags:
+```
+                         -----------------
+-------------------------|   THE BOSS!   |-------------------------
+|                        -----------------                        |
+|                                                                 |
+|                         I have done it!                         |
+|                                                                 |
+-------------------------------------------------------------------
+```
+
+- You can use CSS.
+- The widths of both the boxes should be visibly greater than whatever space the texts take, and the texts should be horizontally centered.
+- Do not directly write "The BOSS" in uppercase like this. Write normally ("The boss") in your HTML and then use CSS to make all the letters uppercase.
+
+_Est. time: 20m_
+
+### Task 21
+
+If you have done task 20 by using the CSS `position` property, modify and do without using `position` this time. And if you have _not_ used `position`, _use it_ this time.
+
+DO NOT RECREATE a new pair of boxes. Just modify the previous ones. You should be using Git, so the previous task will not be lost.
+
+_Est. time: 20m_
+
+### Task 22
+
+Add an external CSS file to your HTML. Then use CSS to change your page color to pink.
+
+Use color names, or RGB or hex values – whichever you like. If you are required to apply a very specific color, the hex or RGB values will be provided. Except from those cases, do whichever shade you like – just do not go so wildly off the mark as to color it blue when the question says red.
+
+_Est. time: 5m_
+
+### Task 23
+
+Create another external CSS file named `given.CSS`, and add it to your HTML file after the main CSS file you added in the previous task. Add the following code to `given.CSS`:
+```CSS
+body {
+    background-color: "green";
+}
+```
+
+Now, apply necessary CSS to turn your page color white.
+
+_Est. time: 10m_
+
+### Task 24
+
+- Change the color of all lists on your page to orange.
+- Change the color of the list of `id` value `nestedList` to white.
+- Create a table of 7 rows and 6 columns that has alternating rows of yellow and blue color. Add an `id` of value `bigTable` to the table.
+- Make the color of the last cell of every row green.
+- Make the color of the first letter of the content of every cell red.
+
+_Est. time: 25m_
+
+### Task 25
+
+Turn the background color of every cell of the table created in the previous task to white – without removing or modifying any existing CSS, of course.
+
+_Est. time: 25m_
+
+### Task 26
+
+- Make the text size of the entire table `12px`.
+- In the table of `id` value `bigTable`, turn the color of the entire first row gray.
+- Change the size of the 3rd cell of all rows to this: `30px` height and `50px` width. Now, center the content vertically using CSS only; but put the text adjacent to the right wall of cell, instead of its default left or centering horizontally.
+
+_Est. time: 15m_
+
+### Task 27
+
+- Add an image which will be of `60px` height and `60px` width, and look perfectly circular. Add an `id` of value `circularImage` to it.
+- Change the image link to `https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2qVsJ?ver=3f74`. The image should still be of `60px` height and `60px` width, and look perfectly circular.
+- Make it so that clicking on the image opens this link in a new tab: `https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/logo.aspx`.
+
+_Est. time: 25m_
+
+### Task 28
+
+When the image created in the previous task is hovered, it should:
+- rotate 48 degrees counter-clockwise.
+- look faded. (Use whatever effect you want to whatever degree. The end result should just look visibly faded than its normal state.)
+- grow visibly bigger (it is not important how big).
+
+_Est. time: 15m_
+
+### Task 29
+
+- Make a red circle of `100px` radius that will stick to the right side of the screen and will stay at the same place even if page is scrolled.
+
+_Est. time: 10m_
+
+### Task 30
+
+- Move the circle created in the previous task inside the first cell (first row, first column) of the table of `id` value `bigTable`.
+- When the circle is hovered, it should become invisible but the cell should not shrink.
+
+_Est. time: 10m_
+
+### Task 31
+
+When the image created in task 29 is hovered, it should become invisible, and the containing cell should shrink to its original size.
+
+_Est. time: 15m_
+
+### Task 32
+
+Show the following paragraph inside a box (with visible border) of `60px` height and `300px` width:
+```
+Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+```
+
+Show the text in such a way that only the text that fits inside the box is visible, and the rest of it is not. Now, make sure that –
+- The box does not stretch.
+- A vertical scrollbar shows up.
+
+_Est. time: 15m_
+
+### Task 33
+
+- Make two square boxes (with the contents "box1" and "box2") of `80px` dimensions.
+- Make it so that the second box shows up _over_ the 1st box and partially covers it.
+   > (Hint: You may use the `box-shadow` property for the covering effect.)
+
+_Est. time: 25m_
