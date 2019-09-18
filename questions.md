@@ -1,17 +1,29 @@
 ### Instructions
 
 - Kindly do only what is asked in the tasks. Do not do anything extra. Consider that what is not said is not required.
+
 - Until instructed, do all tasks in a single HTML file. This file will be called as the index file in future, but it is not mandatory to name it `index.html`.
+
 - Kindly do not create any file or directory unless specified in the question. If you do, this may confuse you when a future question tell you to create directories and refer to files from within them.
+
 - You can use images hosted online. No need to download images offline to use.
+
 - If dimensions of a table or a list is not defined, assume the least possible value. (For example, 1x1 size for a table, and 1 item for a list.)
+
 - Use only HTML and CSS to complete the tasks until explicitly asked otherwise.
+
 - In case of content for HTML tags, use generic words, with numbers if necessary. (For example, just "paragraph" for a paragraph; "item1" and "item2" for a list with 2 items; "r1c1", "r1c2", "r2c1", etc. in case of table cells.)
+
 - Unless specified, follow natural order in adding your code to the document. Add your code of each task after the code of the previous task. (Which means that the image from task 3 will appear after the table from task 2; and following the image will be the code from task 6, since task 4 and task 5 have specific instructions.)
+
 - Do not assume an "input field" means the HTML `<input>` tag. The result should look like an input field to the eye. Whatever HTML tag you use to make it so is not the concern, as long it does what is asked in the question.
+
 - From task 22 onward, write all CSS rules you need in the external CSS file unless explicitly told to do otherwise. Name that file whatever you like, but this file will be called the main CSS file to refer in the future.
+
 - From task 22 onward, in the CSS-focused questions, when you are asked to use CSS to do something, do not remove or modify either any of your existing CSS or the content of the CSS file given in the question. Just add more valid CSS rules to override them in the browser rendering.
+
 - From task 22 onward, in order to apply your own CSS, add whatever `class` attributes you think necessary to whatever HTML tags. But do not add any `id` attribute unless explicitly asked to do so. And, try to keep the class names generic, so they do not coincide with class names provided in any question (if any).
+
 - From task 22 onward, when you are asked to apply CSS, create additional HTML elements if necessary (e.g., a container `<div>` for an `<img>`). But do try to keep the amount of such additional tag creation to a minimum.
 
 All "estimated time needed" values have been calculated with some margin for searching what you will be looking for to complete the tasks, and for reading up on some related things you found. So, in almost all the cases – unless you are very unlucky, or inefficient in the way you search – you will need less time than what is given. And, if you at least know the names of the tags and properties you need to use, you will need about 1/5th to 1/6th of the time.
@@ -103,9 +115,9 @@ _Est. time: 15m_
 
 Inside the form created in the last task –
 
-- Add an input field for entering text that can be stretched by the user (i.e., user can click on the corner and drag to make the field bigger).
+- Add an input field for entering text that can be stretched by the user (i.e., user can click on the corner and drag to make the field bigger). Do this without using CSS.
 - Add a select option for gender. Provide two boxes/circles/buttons for the user two select, but they should be preceded by the texts "male" and "female". And when the user clicks on a text – not on the box/circle/button itself – the option should get selected. The user should not be able to select both options simultaneously.
-   (Clarification: Make it so that an input option gets selected even if the user clicks on its text only. And do this _without using JabaScript_.)
+   (Clarification: Make it so that an input option gets selected even if the user clicks on its text only. And do this _without using JavaScript_.)
 
 _Est. time: 25m_
 
