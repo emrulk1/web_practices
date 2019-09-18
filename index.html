@@ -17,6 +17,43 @@
 		.borderBox{
 			border-style: solid;
 		}
+		
+		
+		.resizable-input {
+			border: 1px solid;
+			/* make resizable */
+			overflow-x: hidden;
+			resize: horizontal;
+			display: inline-block;
+
+			/* no extra spaces */
+			padding: 0;
+			margin: 0;
+			white-space: nowrap;
+
+			/* default widths */
+			width: 10em;
+			min-width: 2em;
+			max-width: 30em;
+		}
+
+		/* let <input> assume the size of the wrapper */
+		.resizable-input > input {
+			width: 100%;
+			box-sizing: border-box;
+			margin: 0;
+		}
+
+		/* add a visible handle */
+		.resizable-input > span {
+			display: inline-block;
+			vertical-align: bottom;
+			margin-left: -16px;
+			width: 16px;
+			height: 16px;
+			cursor: ew-resize;
+		}
+
 	</style>
 </head>
 <body>
@@ -81,10 +118,16 @@
 			<br>
 			<label>email :</label>
 			<input type="email" pattern="/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/">
-			
 			<br>
 		</div>
 
+		<!-- <input class = resizable type="text"/>
+		<br> -->
+		<br>
+		<span class="resizable-input">
+			<input type="text"><span></span>
+		</span>
+		<br>
 		<button type="reset">Reset</button>
 	</form>
 
