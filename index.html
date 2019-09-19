@@ -59,6 +59,26 @@
 		#outerList li{
 			list-style-type:lower-alpha;
 		}
+		.line{
+	        width: 50%;
+	        margin: auto;
+	        margin-top: 5%;
+	        margin-bottom: 5%;
+	        color:black;
+    	}
+
+    	#progressbar {
+    		background-color: black;
+    		border-radius: 13px; /* (height of inner div) / 2 + padding */
+    		padding: 3px;
+    	}
+
+    	#progressbar > div {
+    		background-color: white;
+    		width: 40%; /* Adjust with JavaScript */
+    		height: 20px;
+    		border-radius: 10px;
+    	}
 	</style>
 </head>
 <body>
@@ -149,8 +169,13 @@
 	progress:
 	<progress value="11" max="11">
 	</progress>
-
-	__________________________________________________________________________________________________________________________
+	<br><br>
+	CSS progressbar:
+	<div id="progressbar">
+		<div></div>
+	</div>
+	<div class="line">
+	</div>
 	<p id="footnote">
 		<font size="2">There are 2 lists</font>
 	</p>
