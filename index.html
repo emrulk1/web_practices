@@ -59,6 +59,26 @@
 		#outerList li{
 			list-style-type:lower-alpha;
 		}
+		.line{
+	        width: 50%;
+	        margin: auto;
+	        margin-top: 5%;
+	        margin-bottom: 5%;
+	        color:black;
+    	}
+
+    	#progressbar {
+    		background-color: black;
+    		border-radius: 13px; /* (height of inner div) / 2 + padding */
+    		padding: 3px;
+    	}
+
+    	#progressbar > div {
+    		background-color: white;
+    		width: 100%; /* Adjust with JavaScript */
+    		height: 20px;
+    		border-radius: 10px;
+    	}
 	</style>
 </head>
 <body>
@@ -72,9 +92,10 @@
 					nested item 2
 					<table>
 						<tr>
-							<td>
+							<td title="table inside nested list">
 								<img id="img2" src="https://static.slickdealscdn.com/attachment/2/8/9/1/1/8249962.attach">
 							</td>
+							<td><abbr title="row 1 column 2">r1c2</abbr></td>
 						</tr>
 					</table>
 				</li>
@@ -145,9 +166,22 @@
 		<br>
 		<button type="reset">Reset</button>
 	</form>
+	<br>
+	progress:
+	<progress value="11" max="11" title="This progress bar is made without CSS.
+	
+	But the next one is not.">
+	</progress>
+	<br><br>
+	CSS progressbar:
+	<div id="progressbar">
+		<div></div>
+	</div>
+	<div class="line">
+	</div>
+	<p id="footnote">
+		<font size="2">There are 2 lists</font>
+	</p>
 </body>
-__________________________________________________________________________________________________________________________
-<p id="footnote">
-	<font size="2">There are 2 lists</font>
-</p>
+
 </html>
