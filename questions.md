@@ -136,6 +136,7 @@ _Est. time: 25m_
 - Add a "1" at the end of the heading in superscript (like a reference). Add an `id` of value `ref` to it.
 - At the end of your page, write "There are 2 lists" in a paragraph, in a font smaller than the default size. Make the font size smaller without using any CSS or the `<font>` tag. Add an `id` of value `footnote` to it.
 - Put a line _over_ this footnote without adding a new HTML element, or using any `border`-related CSS property, or using textual characters (like, underscores) to make a line manually.
+ - Link the "1" to the footnote in such a way that clicking on the "1" scrolls the screen down to show the footnote.
 
 _Est. time: 20m_
 
