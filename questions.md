@@ -136,13 +136,14 @@ _Est. time: 25m_
 - Add a "1" at the end of the heading in superscript (like a reference). Add an `id` of value `ref` to it.
 - At the end of your page, write "There are 2 lists" in a paragraph, in a font smaller than the default size. Make the font size smaller without using any CSS or the `<font>` tag. Add an `id` of value `footnote` to it.
 - Put a line _over_ this footnote without adding a new HTML element, or using any `border`-related CSS property, or using textual characters (like, underscores) to make a line manually.
+ - Link the "1" to the footnote in such a way that clicking on the "1" scrolls the screen down to show the footnote.
 
 _Est. time: 20m_
 
 ### Task 12
 
 - Create a progress bar to show how many tasks so far you have completed (among 1-11) without using any CSS.
-- Create another progress bar to show the same, but use something other than what you used last time. You can use CSS this time. But do not add any more HTML elements. Do it using only one tag.
+- Create another progress bar to show the same, but use something other than what you used last time. You can use CSS this time. But do not use more than one HTML element.
 
 _Est. time: 25m_
 
