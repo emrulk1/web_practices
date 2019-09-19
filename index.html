@@ -67,17 +67,9 @@
 	        color:black;
     	}
 
-    	#progressbar {
-    		background-color: black;
-    		border-radius: 13px; /* (height of inner div) / 2 + padding */
-    		padding: 3px;
-    	}
-
-    	#progressbar > div {
-    		background-color: white;
-    		width: 100%; /* Adjust with JavaScript */
-    		height: 20px;
-    		border-radius: 10px;
+    	meter {
+    		width: 500px;
+    		height: 25px;
     	}
 	</style>
 </head>
@@ -173,10 +165,9 @@
 	But the next one is not.">
 	</progress>
 	<br><br>
-	CSS progressbar:
-	<div id="progressbar">
-		<div></div>
-	</div>
+	progressbar with CSS:<br>
+	<meter value="2" min="0" max="10"></meter><br>
+	<br>	
 	<div class="line">
 	</div>
 	<p id="footnote">
