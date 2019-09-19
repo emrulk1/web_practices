@@ -142,7 +142,7 @@ _Est. time: 20m_
 ### Task 12
 
 - Create a progress bar to show how many tasks so far you have completed (among 1-11) without using any CSS.
-- Create another progress bar to show the same, but use something other than what you used last time. You can use CSS this time. But do not add any more HTML elements. Do it using only one tag.
+- Create another progress bar to show the same, but use something other than what you used last time. You can use CSS this time. But do not use more than one HTML element.
 
 _Est. time: 25m_
 
