@@ -72,6 +72,26 @@
     		width: 500px;
     		height: 25px;
     	}
+
+    	.styledTable{
+	    		border-collapse: collapse;
+	    	}
+	    .styledTable th{
+	    		border-left: 1px solid black;
+	    		border-right: 1px solid black;
+	    		border-spacing: 0;
+	    	}
+	    .styledTable tr {
+	    		border: 1px dashed black;
+	    		text-align: center;
+	    	}
+	    .styledTable td {
+	    		border-left: 1px solid black; 
+	    		border-right: 1px solid black;
+
+	    	}
+    	}
+
 	</style>
 </head>
 <body>
@@ -174,7 +194,39 @@
 	<br><br>
 	progressbar with CSS:<br>
 	<meter value="11" min="0" max="11"></meter><br>
-	<br>	
+	<br/><br/>
+
+	<table class=styledTable>
+		<thead>
+			<tr>
+				<th colspan="2">heading1</th>
+				<th rowspan="2" colspan="2">heading2</th>
+			</tr>
+			<tr>
+				<th>sub1</th>
+				<th>sub2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>3.1</td>
+				<td>3.2</td>
+				<td colspan="2">3.4/3.5</td>
+			</tr>
+			<tr>
+				<td>4.1</td>
+				<td>4.2</td>
+				<td colspan="2">4.4/4.5</td>
+			</tr>
+			<tr>
+				<td>5.1</td>
+				<td>5.2</td>
+				<td colspan="2">5.4/5.5</td>
+			</tr>
+		</tbody>
+	</table>
+	<br/>
+
 	<div class="line">
 	</div>
 	<p id="footnote">
